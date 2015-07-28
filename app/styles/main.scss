@@ -1,0 +1,264 @@
+/*****************************************************************************
+  toronto_lung_clinic
+******************************************************************************/
+
+
+@import '../../bower_components/bourbon/app/assets/stylesheets/_bourbon.scss';
+@import '../../bower_components/neat/app/assets/stylesheets/_neat.scss';
+
+
+
+
+
+/*****************************************************************************
+  Base Styles
+******************************************************************************/
+//font
+
+header {
+  color: blue;
+}
+
+social-media {
+  width: 200px;
+  height: 200px;
+}
+
+#main-header {
+    position: relative;
+    min-width: 100%;
+    background-color: #668284;
+    border-bottom: 5px solid #dbdbdb;
+    border-top: 5px solid #dbdbdb;
+    /*border-bottom: 5px solid #dbdbdb;*/
+    margin-top: -0.1cm;
+}
+
+.logo {
+  display: block;
+    color: #fff;
+    font-family: 'Shift', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 24px;
+    text-decoration: underline;
+    margin-top: -0.01cm;
+    float: left;
+}
+.contact-info {
+  display: block;
+    font-family: 'Shift', sans-serif;
+    text-align: center;
+    margin-top: -12px;
+    margin-bottom: 10px;
+    color: #d3d3d3;
+    float: right;
+}
+.clear {
+  clear: both;
+}
+
+// html, body, div, span, applet, object, iframe,
+// h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+// a, abbr, acronym, address, big, cite, code,
+// del, dfn, em, img, ins, kbd, q, s, samp,
+// small, strike, strong, sub, sup, tt, var,
+// b, u, i, center,
+// dl, dt, dd, ol, ul, li,
+// fieldset, form, label, legend,
+// table, caption, tbody, tfoot, thead, tr, th, td,
+// article, aside, canvas, details, embed,
+// figure, figcaption, footer, header, hgroup,
+// menu, nav, output, ruby, section, summary,
+// time, mark, audio, video {
+// 	margin: 0;
+// 	padding: 0;
+// 	border: 0;
+// 	font-size: 100%;
+// 	font: inherit;
+// 	vertical-align: baseline;
+// }
+
+#nav {
+  margin: auto;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+ body {
+	background-color: #fff;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+h1 {
+	font-size: 26px;
+	margin: 0 0 15px;
+}
+h2 {
+	font-size: 20px;
+	margin: 10px 0 15px;
+}
+h3 {
+	font-size: 18px;
+	margin: 10px 0 15px;
+}
+
+h4 {
+    font-size:14px;
+    margin: 10px 0px;
+    font-weight:bold;
+}
+
+header, footer, nav, section {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+
+.br-container{
+    min-height:100%;
+ position:relative;
+}
+
+.content-body{
+    overflow:hidden;
+   padding-bottom:154px;
+   background:rgba(136,170,182, 0.1);
+}
+
+ .button-blue{
+  background: #0378a3;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration:none;
+}
+
+.button-blue:hover {
+        background:#08b3ce;
+    }
+
+.button-blue a{
+    color:#fff;
+    text-decoration:none;
+}
+
+ .button-cancel{
+     margin-left:15px;
+  background: #cbcdcf;
+  font-family: Arial;
+  color: #333;
+  font-size: 14px;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration:none;
+}
+
+.button-cancel:hover {
+        background:#f7f9fa;
+    }
+
+ .button-cancel a{
+     color:#333;
+     text-decoration:none;
+ }
+
+.button-green{
+    margin-bottom:10px;
+  background: #09720D;
+  font-family: Arial;
+  font-size: 14px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.button-green:hover {
+        background:#09A10D;
+    }
+
+.button-green a {
+    color:#fff;
+    padding:10px;
+    text-decoration:none;
+}
+
+.btn-margin {
+    margin-top: 20px;
+}
+.spaced {
+    margin: 10px 5px;
+}
+
+.bluefont {
+    color:#266176;
+    font-weight:bold;
+
+}
+
+
+.required{
+    color:red;
+
+/*****************************************************************************
+  Layout Styles
+******************************************************************************/
+.header-banner {
+  display: block;
+  position: relative;
+  min-width: 100%;
+  background-color: #668284;
+  border-bottom: 5px solid #dbdbdb;
+  border-top: 5px solid #dbdbdb;
+  /*border-bottom: 5px solid #dbdbdb;*/
+  margin-top: -0.1cm;
+}
+
+
+
+/*****************************************************************************
+  Module Styles
+******************************************************************************/
